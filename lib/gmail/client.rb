@@ -26,7 +26,6 @@ module Gmail
       raise UnknownClient, "No such client: #{name}"
     end
 
-    require 'gmail/imap_extensions'
     require 'gmail/client/base'
     require 'gmail/client/plain'
     require 'gmail/client/xoauth'
